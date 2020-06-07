@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-row">
+                <button class="m-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </button>
+
+                <div class="search">
+                  <input type="search" class="search-input" placeholder="Search">
+                </div>
+                <div class="nav-menu">
+                    <div class="user">
+                        <img src="img/avatar.png" alt="avatar" class="user-avatar">
+                        <span class="user-name">Mateusz</span>
+                    </div>
+                    <nav class="nav-panel">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">Create</a>
+                    </nav>
+                    <div class="icon-panel">
+
+                        <a href="#" class="icon-link">
+                            <svg class="header-icon" width="20" height="20">
+                                <use xlink:href="img/icons.svg#friends"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icon-link">
+                            <svg class="header-icon" width="22" height="22">
+                                <use xlink:href="img/icons.svg#chat"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icon-link">
+                            <svg class="header-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#bell"></use>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="icon-link">
+                            <svg class="header-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#info"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main-info">
+            <div class="menu-sidebar active">
+                <div class="user">
+                    <img src="img/avatar.png" alt="avatar" class="user-avatar">
+                    <span class="user-name">Mateusz Wierzbicki</span>
+                </div>
+            
+                <nav class="nav-group">
+                    <a href="#" class="nav-link active">
+                        <svg class="nav-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#feed"></use>
+                        </svg>
+                        <span class="nav-text">News Feed</span>
+                    </a>
+                </nav>
+                <nav class="nav-group">
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#message"></use>
+                        </svg>
+                        <span class="nav-text">Messages</span>
+                    </a>
+                </nav>
+                <nav class="nav-group">
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#market"></use>
+                        </svg>
+                        <span class="nav-text">MarketPlace</span>
+                    </a>
+                </nav>
+            
+                <nav class="nav-group">
+                    <h3 class="nav-title">Shortcuts</h3>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon nav-champ" width="24" height="24">
+                            <use xlink:href="img/icons.svg#champ"></use>
+                        </svg>
+                        <span class="nav-text">Product Design</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon nav-champ" width="24" height="24">
+                            <use xlink:href="img/icons.svg#champ"></use>
+                        </svg>
+                        <span class="nav-text">UX & UI</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon nav-champ" width="24" height="24">
+                            <use xlink:href="img/icons.svg#champ"></use>
+                        </svg>
+                        <span class="nav-text">Figma</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon nav-champ" width="24" height="24">
+                            <use xlink:href="img/icons.svg#champ"></use>
+                        </svg>
+                        <span class="nav-text">Ant Design</span>
+                    </a>
+                </nav>
+            
+                <nav class="nav-group">
+                    <h3 class="nav-title">Explore</h3>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#flag"></use>
+                        </svg>
+                        <span class="nav-text">Pages</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#headset"></use>
+                        </svg>
+                        <span class="nav-text">Groups</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#house"></use>
+                        </svg>
+                        <span class="nav-text">Events</span>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <svg class="nav-icon" width="24" height="24">
+                            <use xlink:href="img/icons.svg#spaceship"></use>
+                        </svg>
+                        <span class="nav-text">Games</span>
+                    </a>
+                </nav>
+            </div>
+            <!-- /.menu-sidebar -->
+            
+            <div class="main-feed">
+                <div class="create-post">
+            
+                    <div class="create-post-header">
+                        <h4 class="create-post-title">Create post</h4>
+                    </div>
+            
+                    <div class="create-post-body">
+                        <img src="img/avatar.png" alt="avatar" class="user-avatar">
+                        <div class="create-post-input" contenteditable="true">What’s on your mind, Mateusz?</div>
+                    </div>
+            
+                    <div class="create-post-footer">
+                        <button class="create-post-button">
+                            <svg class="button-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#image"></use>
+                            </svg>
+                            <span class="button-text">Photo/Video</span>
+                        </button>
+                        <button class="create-post-button">
+                            <svg class="button-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#people"></use>
+                            </svg>
+                            <span class="button-text">Tag friends</span>
+                        </button>
+                        <button class="create-post-button">
+                            <svg class="button-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#feel"></use>
+                            </svg>
+                            <span class="button-text">Feeling/Activities</span>
+                        </button>
+            
+                        <button class="create-post-button"><span class="button-text">...</span></button>
+                    </div>
+            
+                </div>
+                <!-- /.create-post -->
+
+                <div class="post">
+                    <div class="post-header">
+                        <div class="user">
+                            <img class="user-avatar" src="img/avatar.png" alt="avatar">
+                            <div class="post-info">
+                                <a href="" class="post-author">Mateusz Wierzbicki</a>
+                                <div class="post-info-time">
+                                    <span class="post-time">3 hrs</span>
+                                    <svg class="setting-icon" width="14" height="14">
+                                        <use xlink:href="img/icons.svg#settings"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="post-header-button">
+                            <svg class="post-button-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#dottes"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="post-content">
+                        <p class="post-text">Did you know that all of this was made using only components and styles from Ant Desing System for Figma?
+                        Learn more: <a href="#">https://antforfigma.com</a></p>
+                        <img src="img/postimg.jpg" alt="postImg" class="post-image">
+                    </div>
+                    <div class="likes">
+                        <svg class="likes-icon" width="16" height="16">
+                            <use xlink:href="img/icons.svg#likes"></use>
+                        </svg>
+                        <span class="likes-counter">23</span>
+                    </div>
+                    <div class="post-footer">
+                        <button class="post-button">
+                            <svg class="post-button-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#biglike"></use>
+                            </svg>
+                            <span class="post-button-text">Like</span>
+                        </button>
+                        <button class="post-button">
+                            <svg class="post-button-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#comment"></use>
+                            </svg>
+                            <span class="post-button-text">Comment</span>
+                        </button>
+                        <button class="post-button">
+                            <svg class="post-button-icon" width="24" height="24">
+                                <use xlink:href="img/icons.svg#share"></use>
+                            </svg>
+                            <span class="post-button-text">Share</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- /.post -->
+            </div>
+            <!-- /.main-feed -->
+
+            <div class="right-sidebar">
+
+                <div class="stories">
+
+                    <div class="stories-header">
+                        <h4 class="stories-title">Stories</h4>
+                        <div class="stories-header-dop">
+                            <a href="#" class="stories-dopinfo">Archieve</a>
+                            <a href="#" class="stories-dopinfo">Settings</a>
+                        </div>
+                    </div>
+
+                    <div class="stories-block">
+                        <a href="#" class="stories-item-add">
+                            <div class="story-image">+</div>
+                            <div class="stories-item-text">
+                                <span class="stories-author">Add to your story</span>
+                                <span class="stories-text">Share a photo or video or write something</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="stories-block">
+                        <a href="#" class="stories-item">
+                            <div class="story-image concuria"></div>
+                            <div class="stories-item-text">
+                                <span class="stories-author">Concuria</span>
+                                <span class="stories-text">4 hours ago</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="stories-block">
+                        <a href="#" class="stories-item">
+                            <div class="story-image concuria"></div>
+                            <div class="stories-item-text">
+                                <span class="stories-author">Figma</span>
+                                <span class="stories-text">5 hours ago</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="stories-block">
+                        <a href="#" class="stories-item">
+                            <div class="story-image concuria ant"></div>
+                            <div class="stories-item-text">
+                                <span class="stories-author">Ant Design</span>
+                                <span class="stories-text">6 hours ago</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="birthday">
+                    <div class="birthday-main">
+                        <svg class="present" width="24" height="24">
+                            <use xlink:href="img/icons.svg#present"></use>
+                        </svg>
+                        <p class="present-text"><span>John Doe’s</span> birthday is today</p>
+                    </div>
+                </div>
+
+                <div class="page">
+
+                    <div class="page-header">
+                        <h4 class="page-title">Your Page</h4>
+                        <button class="page-header-option">...</button>
+                    </div>
+
+                    <div class="page-maininfo">
+                        <div class="page-maininfo-logo figma"></div>
+                        <div class="page-maininfo-text">
+                            <h4 class="page-maininfo-title">Figma</h4>
+                            <span class="page-maininfo-undertitle">Messages</span>
+                            <span class="page-maininfo-undertitle">Notifications</span>
+                        </div>
+                    </div>
+
+                    <div class="page-footer">
+                        <div class="page-buttons">
+                            <button class="page-views page-views-active">Likes</button>
+                            <button class="page-views">Views</button>
+                            <button class="page-views">Posts</button>
+                        </div>
+                        <div class="likesintime">
+                            <span class="alltime">262</span>
+                            <span class="inweek">5 likes this week</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /.right-sidebar -->
+
+        </div>
+
+        
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
